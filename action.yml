@@ -1,0 +1,14 @@
+
+name: 'Barsoom Greeter'
+description: 'Greets someone and returns the greeting'
+inputs:
+  name:
+    description: 'Who to greet'
+    required: true
+    default: 'Barsoom'
+outputs:
+  greeting:
+    description: 'The greeting that was produced'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
