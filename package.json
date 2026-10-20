@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "build": "ncc build index.js -o dist"
-},
+    "build": "ncc build index.js -o dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FarhiAwan/barsoom-action.git"
@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/FarhiAwan/barsoom-action#readme",
   "dependencies": {
-    "@actions/core": "^3.0.1",
-    "@actions/github": "^9.1.1"
+    "@actions/core": "^2.0.3",
+    "@actions/github": "^7.0.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.45.0"
